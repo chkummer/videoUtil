@@ -12,36 +12,36 @@ module Power_Cap(){
         // the cap
         minkowski(){
        
-            polygon(points=[ [4, 4], [65, 4], [65, 81], 
-            [54, 87], [54, 200], [4, 200] ]);
-            circle(4);
+            polygon(points=[ [7, 7], [68, 7], [68, 85], 
+            [54, 91], [54, 203], [7, 203] ]);
+            circle(7);
             
         }
         
         // drill holes
-        translate ([4, 4]) circle(2);
-        translate ([65, 4]) circle(2);
-        translate ([54, 200]) circle(2);
-        translate ([4, 200]) circle(2);
+        translate ([7, 7]) circle(2);
+        translate ([68, 7]) circle(2);
+        translate ([54, 203]) circle(2);
+        translate ([7, 203]) circle(2);
         
         // drill hole for mounting nut
-        translate ([20, 100]) circle(4);
+        translate ([23, 103]) circle(4);
         
         // power distribution back wall
-        translate([6, 23]) square([5, 17]);
-        translate([6, 57]) square([5, 17]);
-        translate([6, 91]) square([5, 17]);
-        translate([6, 125]) square([5, 17]);
-        translate([6, 159]) square([5, 17]);
+        translate([9, 26]) square([5, 17]);
+        translate([9, 60]) square([5, 17]);
+        translate([9, 94]) square([5, 17]);
+        translate([9, 129]) square([5, 17]);
+        translate([9, 162]) square([5, 17]);
         
         // power distribution top wall
-        translate([26, 193]) square([17, 5]);
+        translate([29, 196]) square([17, 5]);
         
         // power distribution buttom wall
-        translate([33, 6]) square([15, 5]);
+        translate([36, 9]) square([15, 5]);
         
         // power distribution front wall
-        translate([58, 26]) square([5, 17]);
+        translate([61, 29]) square([5, 17]);
         
     }
 

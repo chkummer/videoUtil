@@ -16,16 +16,16 @@ module BMMC_Cap(){
     difference() {
     
         // outer square(72,85) with rounded corners
-        translate([4,4]) minkowski(){
+        translate([7,7]) minkowski(){
             square([64,67]);
-            circle(4);
+            circle(7);
         }
         
         // drill holes
-        translate ([4,4]) circle(2);
-        translate ([68,4]) circle(2);
-        translate ([4,71]) circle(2);
-        translate ([68,71]) circle(2);
+        translate ([7,7]) circle(2);
+        translate ([71,7]) circle(2);
+        translate ([7,74]) circle(2);
+        translate ([71,74]) circle(2);
     
     }
 

@@ -11,26 +11,19 @@
  *
  * this part is beeing clued to the bottom 
  */
+ 
+ include <BMMC_Cap.scad>
+
 
 module BMMC_Bracket(){
     
     difference() {
     
-        // outer square(72,85) with rounded corners
-        translate([4,4]) minkowski(){
-            square([64,67]);
-            circle(4);
-        }
+        BMMC_Cap();
         
         // inner square to hold the BMMC in place
-        translate([6,6]) square([60,63]);
-        
-        // drill holes
-        translate ([4,4]) circle(2);
-        translate ([68,4]) circle(2);
-        translate ([4,71]) circle(2);
-        translate ([68,71]) circle(2);
-    
+        translate([9,9]) square([60,63]);
+            
     }
     
 }
