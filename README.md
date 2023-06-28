@@ -17,5 +17,5 @@ Currently i haven't decided yet about a solution, but here are some interesting 
 * [vMix-M5Stick-Tally-Light](https://github.com/guido-visser/vMix-M5Stick-Tally-Light)
 * [vTally – Open Source Tally Light](https://wifi-tally.github.io/index.html)
 * [wifitally](https://github.com/hennedo/wifitally)
-* [ATEM Tally Controller Article](https://oneguyoneblog.com/2020/06/13/tally-light-esp32-for-blackmagic-atem-switcher/A
+* [ATEM Tally Controller Article](https://oneguyoneblog.com/2020/06/13/tally-light-esp32-for-blackmagic-atem-switcher/)
 * [ATEM Tally Controller Code](https://github.com/aaronpk/atem-tally-controller)
